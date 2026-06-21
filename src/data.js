@@ -1,0 +1,130 @@
+export const products = [
+  {
+    id: "premium-oversized-tee",
+    name: "Premium Oversized Tee",
+    type: "tee",
+    color: "black",
+    colors: ["black", "white", "beige", "olive"],
+    price: 180,
+    rating: 5,
+    reviews: 120,
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    category: "Men",
+    desc: "Premium quality oversized tee made from 100% cotton. Soft, breathable and perfect for everyday wear.",
+    tag: "trending",
+  },
+  {
+    id: "essentials-hoodie",
+    name: "LU(ID Hoodie",
+    type: "hoodie",
+    color: "beige",
+    colors: ["beige", "black", "olive"],
+    price: 200,
+    rating: 5,
+    reviews: 88,
+    sizes: ["S", "M", "L", "XL"],
+    category: "Men",
+    desc: "Heavyweight fleece hoodie with a relaxed fit and embroidered LU(ID mark. Made to layer.",
+    tag: "trending",
+  },
+  {
+    id: "essential-white-tee",
+    name: "Essential White Tee",
+    type: "tee",
+    color: "white",
+    colors: ["white", "black", "beige"],
+    price: 150,
+    rating: 4,
+    reviews: 64,
+    sizes: ["S", "M", "L", "XL"],
+    category: "Men",
+    desc: "Your perfect everyday white tee. Mid-weight combed cotton with a clean, structured neckline.",
+    tag: "trending",
+  },
+  {
+    id: "minimal-black-hoodie",
+    name: "Minimal Black Hoodie",
+    type: "hoodie",
+    color: "black",
+    colors: ["black", "olive", "beige"],
+    price: 200,
+    rating: 5,
+    reviews: 142,
+    sizes: ["S", "M", "L", "XL"],
+    category: "Women",
+    desc: "Minimal black hoodie cut for confidence. Brushed interior, ribbed cuffs and a timeless silhouette.",
+  },
+  {
+    id: "cargo-pants",
+    name: "Cargo Pants",
+    type: "pants",
+    color: "olive",
+    colors: ["olive", "black", "beige"],
+    price: 250,
+    rating: 4,
+    reviews: 51,
+    sizes: ["30", "32", "34", "36"],
+    category: "Men",
+    desc: "Utility cargo pants with a tapered leg, reinforced stitching and roomy side pockets.",
+  },
+];
+
+export const categories = [
+  { name: "Men", color: "black" },
+  { name: "Women", color: "beige" },
+  { name: "Kids", color: "olive" },
+  { name: "Accessories", color: "gold" },
+];
+
+export const orders = [
+  {
+    id: "LA10023",
+    date: "May 20, 2024",
+    status: "Delivered",
+    total: 420,
+    items: [
+      { type: "hoodie", color: "beige" },
+      { type: "tee", color: "black" },
+    ],
+    extra: 2,
+  },
+  {
+    id: "LA10022",
+    date: "May 10, 2024",
+    status: "Shipped",
+    total: 230,
+    items: [
+      { type: "tee", color: "black" },
+      { type: "tee", color: "white" },
+      { type: "hoodie", color: "beige" },
+    ],
+    extra: 1,
+  },
+  {
+    id: "LA10021",
+    date: "Apr 28, 2024",
+    status: "Delivered",
+    total: 180,
+    items: [
+      { type: "pants", color: "olive" },
+      { type: "tee", color: "black" },
+    ],
+    extra: 2,
+  },
+];
+
+export const colorHex = {
+  black: "#1c1c1c",
+  white: "#f3f3f0",
+  beige: "#d8c4a3",
+  olive: "#6b6f4e",
+  gold: "#d4af37",
+};
+
+export const colorLabel = {
+  black: "Black",
+  white: "White",
+  beige: "Beige",
+  olive: "Olive",
+  gold: "Gold",
+};
